@@ -1,9 +1,10 @@
-# include <stdio.h>
+//write a c program to enter temperature in celsius and convert it into fahrenheit
+#include<stdio.h>
 int main()
-{    int a ;
-    printf("Enter the Value");
-    scanf("%d", &a);
-    printf("Value in Meter %f \n",a/100);
-    printf("Value in KiloMeter %f",a/100000);
+{
+    float a,b;
+    scanf("%f",&a);
+    b=(a*9/5)+32;
+    printf("%f",b);
     return 0;
 }
