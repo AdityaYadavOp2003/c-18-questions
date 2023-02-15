@@ -9,5 +9,4 @@ int main()
     printf("The Substraction Will be %d \n", a-b);
     printf("The Multiplication Will be %d \n",a*b);
     printf("The Division Will be %d \n", a/b);
-
 }
